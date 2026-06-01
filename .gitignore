@@ -1,0 +1,8 @@
+# ignore this folders
+.venv/
+bdd100k_images_100k/
+bdd100k_labels_release/
+runs/
+
+#ignore this files
+./checkpoints/bdd100k_yolov8_self.pt

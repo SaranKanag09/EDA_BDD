@@ -1,0 +1,15 @@
+================ EVALUATION METRICS ================
+Dataset: BDD100K Validation Set
+Checkpoint: Yolov8 Predictions vs BDD100K Ground Truth
+mAP (IoU 0.50:0.95) : 0.2728
+mAP @ 0.50 IoU      : 0.3068
+mAP @ 0.75 IoU      : 0.2784
+mAP (Small objects) : 0.0041
+mAP (Medium objects): 0.2930
+mAP (Large objects) : 0.8878
+----------------------------------------------------
+MAR @ 100 max dets  : 0.2748
+Precision           : 0.3068
+Recall              : 0.2748
+F1-Score            : 0.2899
+====================================================

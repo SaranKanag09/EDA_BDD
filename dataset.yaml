@@ -1,0 +1,15 @@
+names:
+- pedestrian
+- rider
+- car
+- truck
+- bus
+- train
+- motorcycle
+- bicycle
+- traffic light
+- traffic sign
+nc: 10
+path: ''
+train: E:\EDA_BDD\bdd100k_images_100k\bdd100k\images\100k\train
+val: E:\EDA_BDD\bdd100k_images_100k\bdd100k\images\100k\val
