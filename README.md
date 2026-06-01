@@ -18,7 +18,7 @@ Also it contains EDA tab for detailed dataset details and EVAL tab for sample ev
 
 ## Model inference on any pretrained models 
 
-1. Make sure the preferred pretrained model is availabel in folder "./checkpoints/". In this example, yolov8m.pt is used. Download link: https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8m.pt
+1. Make sure the preferred pretrained model is available in folder "./checkpoints/". In this example, yolov8m.pt is used. Download link: https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8m.pt
 2. Verify the dataset_path, labels_file and model_name in *inference.py*. Below are considered in this example
    
     - DATASET_PATH ="bdd100k_images_100k/bdd100k/images/100k/val",
