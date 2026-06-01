@@ -1,0 +1,13 @@
+repos:
+  - repo: https://github.com
+    rev: 26.5.0 # Uses Black's version matching your environment
+    hooks:
+      - id: black
+  - repo: local
+    hooks:
+      - id: pylint
+        name: pylint
+        entry: pylint
+        language: system
+        types: [python]
+        args: ["--max-line-length=88"] # Aligns Pylint with Black's line limit
